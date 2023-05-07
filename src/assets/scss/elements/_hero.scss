@@ -13,9 +13,9 @@
     display: grid;
     flex-direction: column;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 4%;
     font-family: 'Sriracha', cursive;
-    transform: translate(-420px, 0);
+    transform: translate(-378px, 0);
   }
   .socials-icon {
     color: #fff;
@@ -23,20 +23,26 @@
     font-size: 2rem;
     text-decoration: none;
     display: block;
-    margin: 0.45rem;
-    padding: 7%;
+    margin: 0.3rem;
+    padding: 8%;
     width: 180%;
     text-align: right;
     border-radius: 50px;
-    transition: 1s;
+    transition: 0.7s;
 
   }
   .socials-icon:hover {
-    transform: translate(190px, 0);
+    transform: translate(170px, 0);
+
   }
   .socials-icon i {
     font-size: 3rem;
-    width: 6rem;
+    width: 5rem;
+    opacity: 0.6;
+
+  }
+  .socials-icon i:hover {
+    opacity: 1;
   }
   .fa-square-facebook {
     color: dodgerblue;
@@ -49,6 +55,9 @@
   .fa-youtube {
     color: red;
   }
+  .fa-patreon {
+    color: rgb(255, 66, 77)
+  }
 }
 .hero-text {
   width: 80%;
@@ -58,4 +67,10 @@
   opacity: 0.9;
   margin: auto;
 
+}
+
+.heroB {
+  height: 70vh;
+  width: 100%;
+  background-color: lightblue;
 }

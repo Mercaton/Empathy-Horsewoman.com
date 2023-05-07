@@ -6,6 +6,7 @@ function Header() {
                 <div className="header__menu">
                     <ul className='menu-list'>
                         <a href=""><li className="menu-item">O mnie</li></a>
+                        {/*<i className="fa-solid fa-house"></i>*/}
                         <a href=""><li className="menu-item">Oferta</li></a>
                         <a href=""><li className="menu-item">Blog</li></a>
                         <a href=""><li className="menu-item">Kontakt</li></a>

@@ -2,11 +2,13 @@
 
 function Hero() {
     return (
+        <>
         <div className="hero">
             <div className="hero__socials">
-                <a href="https://www.facebook.com/EmpathyHorsewomanMartaWieczorek/?ref=page_internal&locale=hi_IN" className="socials-icon" target="_blank">Facebook<i className="fa-brands fa-square-facebook"></i></a>
                 <a href="https://www.instagram.com/empathy.horsewoman/?fbclid=IwAR3mco0Co0ABGpOS5Bcg3Y9rrxj-Cnoaa3kBw5lG0ZFBpsFJJpnRquVJRW8" className="socials-icon" target="_blank">Instagram<i className="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/EmpathyHorsewomanMartaWieczorek/?ref=page_internal&locale=hi_IN" className="socials-icon" target="_blank">Facebook<i className="fa-brands fa-square-facebook"></i></a>
                 <a href="https://www.youtube.com" className="socials-icon" target="_blank">Youtube<i className="fa-brands fa-youtube"></i></a>
+                <a href="https://www.patreon.com/pl-PL" className="socials-icon" target="_blank">Patreon<i className="fa-brands fa-patreon"></i></a>
             </div>
             <div className="hero-img"></div>
             {/*<div className="hero-text">*/}
@@ -14,6 +16,10 @@ function Hero() {
             {/*</div>*/}
 
         </div>
+            <section className="heroB">
+
+            </section>
+        </>
     );
 
 }
