@@ -17,7 +17,17 @@ function Hero() {
 
         </div>
             <section className="heroB">
-
+                <div className="fb-post"
+                     data-href="https://www.facebook.com/EmpathyHorsewomanMartaWieczorek/posts/pfbid0GxA9tiSXq6ExhJjSVEopCf9kQunPczsTvjhsmY4ojY65zdArvEC5nXEk9Ki4WxsSl?__cft__[0]=AZWJIjI_3IH89YX66WUguYbEqIoQ0R7UQ57Mvqv8vB2DCUiVz74Oae5uqjhJCwUtQrJNrH-_M4ZVKhFB6L6NNI-vSU0mAsPM-OeyGg9caybJXJhvABjDr5XSEP6YSElIXULb0C3kv3Vp8k_X015M4SWtgC7RzCXElIQkU7YG-ggplSNEO9cU2CsmlxJGmnjjH58&amp;__tn__=%2CO%2CP-R"
+                     data-width="500" data-show-text="true">
+                    <blockquote cite="https://www.facebook.com/EmpathyHorsewomanMartaWieczorek/posts/190649620216472"
+                                className="fb-xfbml-parse-ignore"><p>Często ludzie myślą, że okazywanie emocji jest
+                        słabością. Często dzielą emocje na te pożądane (np.radość) i niepożądane...</p>Opublikowany
+                        przez <a href="https://www.facebook.com/EmpathyHorsewomanMartaWieczorek/">Empathy Horsewoman
+                            Marta Wieczorek</a>&nbsp;<a
+                            href="https://www.facebook.com/EmpathyHorsewomanMartaWieczorek/posts/190649620216472">Niedziela,
+                            15 stycznia 2023</a></blockquote>
+                </div>
             </section>
         </>
     );
