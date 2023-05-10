@@ -6,9 +6,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  @media only screen and (max-width: 880px){
-    flex-direction: column;
+  @media only screen and (max-width: 884px){
+    height: 130vh;
   }
+
 }
 
 .contact-form {
@@ -20,6 +21,12 @@
   min-width: 400px;
   max-width: 600px;
   border-radius: 10px 0 0 10px;
+  @media only screen and (max-width: 884px){
+    border-radius: 10px 10px 0 0;
+  }
+  @media only screen and (max-width: 465px){
+    min-width: 300px;
+  }
 
 
 }
@@ -57,7 +64,7 @@ form input, form textarea {
   font-family: $main-font;
   letter-spacing: 2px;
   border-radius: 15px;
-  width: 15vw;
+  width: 120px;
   margin: 20px auto 0;
   z-index: 999;
 
@@ -68,6 +75,9 @@ form input, form textarea {
 .contacts-form {
   display: flex;
   max-width: 800px;
+  @media only screen and (max-width: 884px){
+    flex-direction: column;
+  }
 }
 
 .contacts {
@@ -80,6 +90,15 @@ form input, form textarea {
   width: 36%;
   max-width: 400px;
   border-radius: 0 10px 10px 0;
+  @media only screen and (max-width: 884px){
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    height: 320px;
+    flex-direction: column-reverse;
+  }
+  @media only screen and (max-width: 465px){
+    max-width: 300px;
+  }
   .socials1 {
     display: flex;
     justify-content: space-around;
