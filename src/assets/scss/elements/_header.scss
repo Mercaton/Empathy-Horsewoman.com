@@ -67,8 +67,14 @@
     -webkit-background-clip: text;
     color: transparent;
     font-size: 38px;
-    padding-right: 100px;
+    padding-right: 80px;
     font-weight: bold;
+    @media only screen and (max-width: 499px){
+      padding-right: 20px;
+    }
+    @media only screen and (max-width: 439px){
+      padding-bottom: 0 10px;
+    }
 
   }
 }
@@ -113,7 +119,7 @@ a.active, a:hover {
 @media only screen and (max-width: 952px) {
   .logo-text{
     font-size: 30px;
-    padding-left: 50px;
+    padding-left: 30px;
   }
   .list-item {
     font-size: 16px;
@@ -126,7 +132,7 @@ a.active, a:hover {
   }
   .menu-list {
     position: fixed;
-    width: 30%;
+    width: 20%;
     height: 100vh;
     background-color: #594C5D;
     top: 84px;
@@ -151,3 +157,25 @@ a.active, a:hover {
     left: 0;
   }
 }
+@media only screen and (max-width: 510px){
+  .checkbtn {
+    margin-left: 30px;
+  }
+  .logo-text {
+    font-size: 28px;
+    padding: 0;
+  }
+  .menu-list {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 284px){
+  .logo-text {
+    font-size: 5px;
+  }
+  .menu-list {
+    padding-left: 1px;
+    width: 40%;
+  }
+}
+

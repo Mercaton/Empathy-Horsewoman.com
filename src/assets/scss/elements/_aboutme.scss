@@ -6,67 +6,108 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 904px){
+    flex-direction: column;
+  }
+  @media only screen and (max-width: 314px){
+    height: 140vh;
+  }
+  .aboutme-bg {
+    width: 30vw;
+    height: 80%;
+    background: url("src/assets/images/311498494_169921372289297_5634578455907055123_n.jpg") no-repeat center;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 15px;
+    @media only screen and (max-width: 904px){
+      width: 90vw;
+      margin: 30px 0;
+      border-radius: 15px;
+    }
+    @media only screen and (max-width: 738px){
+      height: 120vh;
+
+    }
+    @media only screen and (max-width: 420px){
+      background-size: cover;
+      border-radius: 15px;
+    }
+  }
+  .aboutme-txt {
+    height: 80%;
+    width: 40vw;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    @media only screen and (max-width: 904px){
+      width: 90vw;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      line-height: 18px;
+    }
+    @media only screen and (max-width: 738px){
+      height: 1300px;
+    }
+    @media only screen and (max-width: 416px){
+      padding-bottom: 10px;
+    }
+    @media only screen and (max-width: 290px){
+      height: 1500px;
+    }
+    .aboutme-hdl{
+      font-size: 50px;
+      font-family: $main-font;
+      font-weight: bold;
+      color: #658F70;
+      text-align: center;
+      margin: 30px 20px;
+      @media only screen and (max-width: 309px){
+        line-height: 1;
+      }
+    }
+    .text1 {
+      font-family: $main-font;
+      font-weight: bold;
+      color: #594C5D;
+      margin: 10px 30px;
+      font-size: 20px;
+      text-align: center;
+    }
+    .text2 {
+      font-family: $main-font;
+      color: #594C5D;
+      margin: 0 30px;
+      font-size: 15px;
+    }
+    .text3 {
+      font-family: $main-font;
+      color: #594C5D;
+      font-size: 15px;
+      margin: 0 30px;
+    }
+    .bookalesson-btn {
+      width: 40%;
+      margin: auto;
+      border-radius: 10px;
+      border: 0;
+      background-color: #A57DB4;
+      color: whitesmoke;
+      padding: 10px 0;
+      font-family: $main-font;
+    }
+  }
 }
-.aboutme-bg {
-  width: 30vw;
-  height: 80%;
-  background: url("src/assets/images/311498494_169921372289297_5634578455907055123_n.jpg") no-repeat center;
-  opacity: 0.8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px 0 0 15px;
-}
-.aboutme-txt {
-  height: 80%;
-  width: 40vw;
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 0 15px 15px 0;
-  display: flex;
-  flex-direction: column;
 
 
-}
-.aboutme-hdl{
-  font-size: 50px;
-  font-family: $main-font;
-  font-weight: bold;
-  color: #658F70;
-  text-align: center;
-  margin: 30px 20px;
-}
-.text1 {
-  font-family: $main-font;
-  font-weight: bold;
-  color: #594C5D;
-  margin: 10px 30px;
-  font-size: 20px;
-  text-align: center;
-}
-.text2 {
-  font-family: $main-font;
-  color: #594C5D;
-  margin: 0 30px;
-  font-size: 15px;
-}
-.text3 {
-  font-family: $main-font;
-  color: #594C5D;
-  font-size: 15px;
-  margin: 0 30px;
-}
+
+
+
 .lockie {
   text-decoration: none;
   color: #594C5D;
   list-style: none;
-}
-.bookalesson-btn {
-  width: 40%;
-  margin: auto;
-  border-radius: 10px;
-  border: 0;
-  background-color: #A57DB4;
-  color: whitesmoke;
-  padding: 10px 0;
-  font-family: $main-font;
 }

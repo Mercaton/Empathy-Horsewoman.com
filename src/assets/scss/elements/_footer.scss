@@ -9,12 +9,22 @@
     justify-content: space-between;
     align-items: center;
     margin: 10px 30px;
+    @media only screen and (max-width: 520px){
+      gap: 160px;
+    }
+    @media only screen and (max-width: 388px){
+      gap: 80px;
+      justify-content: space-around;
+    }
     .footer-nav{
       font-family: $main-font;
       list-style: none;
       display: grid;
       margin-left: 50px;
       font-size: 20px;
+      @media only screen and (max-width: 520px){
+        margin-left: 0;
+      }
       .f-nav-items a {
         color: #8D8572;
         background-color: transparent;
@@ -31,6 +41,11 @@
     display: flex;
     justify-content: space-around;
     font-size: 30px;
+    @media only screen and (max-width: 520px){
+      flex-direction: column;
+      gap: 5px;
+
+    }
   }
   .copyright {
     text-align: right;
