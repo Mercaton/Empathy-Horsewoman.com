@@ -16,14 +16,18 @@
       gap: 80px;
       justify-content: space-around;
     }
+    @media only screen and (max-width: 251px){
+      gap: 50px;
+    }
     .footer-nav{
       font-family: $main-font;
       list-style: none;
       display: grid;
-      margin-left: 50px;
+      margin-left: 40px;
       font-size: 20px;
       @media only screen and (max-width: 520px){
         margin-left: 0;
+
       }
       .f-nav-items a {
         color: #8D8572;
@@ -59,6 +63,7 @@
   }
 
 }
+
 
 
 

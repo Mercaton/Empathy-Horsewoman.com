@@ -42,7 +42,10 @@
     border-radius: 0 15px 15px 0;
     display: flex;
     flex-direction: column;
-    line-height: 25px;
+    line-height: 28px;
+    @media only screen and (max-width: 964px){
+      line-height: 24px;
+    }
     @media only screen and (max-width: 904px){
       width: 90vw;
       margin-bottom: 30px;
