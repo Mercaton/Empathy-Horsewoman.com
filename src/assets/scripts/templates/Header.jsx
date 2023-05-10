@@ -10,9 +10,9 @@ function Header() {
                     <label className="logo-text">Empathy Horsewoman</label>
                     <ul className="menu-list">
                         <li className="nav-item"><a className="list-item active" href="#">Start</a></li>
-                        <li className="nav-item"><a className="list-item" href="#">O mnie</a></li>
-                        <li className="nav-item"><a className="list-item" href="#">Umów lekcję</a></li>
-                        <li className="nav-item"><a className="list-item" href="#">Kontakt</a></li>
+                        <li className="nav-item"><a className="list-item" href="#">About me</a></li>
+                        <li className="nav-item"><a className="list-item" href="#">Book a lesson</a></li>
+                        <li className="nav-item"><a className="list-item" href="#">Contact</a></li>
                     </ul>
 
             </div>

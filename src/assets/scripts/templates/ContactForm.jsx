@@ -6,11 +6,29 @@ function ContactForm() {
             <div className="form-container">
                 <div className="contacts-form">
                     <form className="contact-form">
-                        <h3 className="form_hdl">NAPISZ DO MNIE</h3>
-                        <input type="text" id="name" placeholder="Twoje imię i nazwisko..." required></input>
-                        <input type="email" id="email" placeholder="Adres email..." required></input>
-                                <textarea id="message" rows="5" placeholder="Jak mogę Ci pomóc..."></textarea>
-                                <button className="btn form-btn" type="submit">WYŚLIJ</button>
+                        <h3 className="form_hdl">CONTACT ME</h3>
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Your name..."
+                            required>
+                        </input>
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Your email adress..."
+                            required>
+                        </input>
+                                <textarea
+                                    id="message"
+                                    rows="5"
+                                    placeholder="How can I help you...">
+                                </textarea>
+                                <button
+                                    className="btn form-btn"
+                                    type="submit"
+                                >Submit
+                                </button>
                     </form>
                     <div className="contacts">
                         <div className="socials1">
@@ -23,8 +41,8 @@ function ContactForm() {
                             <a href="#" className="socials2-icon"><i className="fa-brands fa-linkedin"></i></a>
                         </div>
                         <div className="contact-info">
-                            <i className="fa-regular fa-phone">507-073-084</i>
-                            <i className="fa-regular fa-envelope">empathyhorsewoman@icloud.com</i>
+                            <i className="form-icon fa-light fa-phone">507-073-084</i>
+                            <i className="form-icon fa-regular fa-envelope">empathyhorsewoman@icloud.com</i>
                         </div>
                     </div>
                 </div>

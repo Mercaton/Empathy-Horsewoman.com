@@ -6,6 +6,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 880px){
+    flex-direction: column;
+  }
 }
 
 .contact-form {
@@ -22,9 +25,11 @@
 }
 .form_hdl {
   color: #8D8572;
-  font-family: 'Roboto Light', sans-serif;
+  font-family: $main-font;
   margin-bottom: 20px;
   text-align: center;
+  letter-spacing: 2px;
+  font-size: 30px;
 
 }
 
@@ -33,7 +38,7 @@ form input, form textarea {
   margin: 10px 0;
   padding: 20px;
   outline: none;
-  background-color: whitesmoke;
+  background-color: rgba(250, 250, 250, 0.6);
   font-size: 16px;
   border-radius: 10px;
   caret-color: #658F70;
@@ -48,11 +53,15 @@ form input, form textarea {
   cursor: pointer;
   border: 0;
   outline: none;
-  font-family: 'Roboto Light', sans-serif;
+  font-family: $main-font;
+  letter-spacing: 2px;
   border-radius: 15px;
   width: 15vw;
   margin: 20px auto 0;
 
+}
+.form-btn:hover{
+  color: #BFAE87;
 }
 .contacts-form {
   display: flex;
@@ -60,7 +69,7 @@ form input, form textarea {
 }
 
 .contacts {
-  background-color: whitesmoke;
+  background-color: rgba(255, 255, 250, 0.8);
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -69,22 +78,39 @@ form input, form textarea {
   width: 36%;
   max-width: 400px;
   border-radius: 0 10px 10px 0;
+  .socials1 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 80px;
+    .socials1-icon{
+      color: #8D8572;
+    }
+  }
+  .socials2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    .socials2-icon{
+      color: #A57DB4;
+    }
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    .fa-phone{
+      font-size: 30px;
+      text-align: center;
+    }
+
+  }
+  .form-icon {
+    margin-bottom: 15px;
+    font-family: $main-font;
+    font-size: 20px;
+    font-weight: 700;
+  }
 }
-.socials1 {
-  display: flex;
-  justify-content: space-around;
-  font-size: 80px;
-}
-.socials2 {
-  display: flex;
-  justify-content: space-around;
-  font-size: 40px;
-}
-.contact-info {
-  display: grid;
-  padding: 5px;
-  font-size: 10px;
-}
-.fa-phone, .fa-envelope {
-  font-size: 16px;
-}
+
+
+
