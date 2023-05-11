@@ -70,6 +70,7 @@
       @media only screen and (max-width: 309px){
         line-height: 1;
       }
+
     }
     .text1 {
       font-family: $main-font;
@@ -100,6 +101,14 @@
       color: whitesmoke;
       padding: 10px 0;
       font-family: $main-font;
+      .aboutme-btn{
+        text-decoration: none;
+        background-color: transparent;
+        color: whitesmoke;
+      }
+      .aboutme-btn:hover{
+        color: #87C798
+      }
     }
   }
 }
