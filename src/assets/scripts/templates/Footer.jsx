@@ -8,7 +8,7 @@ function Footer() {
                     <ul className="footer-nav">
                         <li className="f-nav-items"><a className="nav-link" href="/">Start</a></li>
                         <li className="f-nav-items"><a className="nav-link" href="/about-me">About me</a></li>
-                        <li className="f-nav-items"><a className="nav-link" href="#">Book a lesson</a></li>
+                        <li className="f-nav-items"><a className="nav-link" href="/book">Book a lesson</a></li>
                         <li className="f-nav-items"><a className="nav-link" href="/contact">Contact</a></li>
                         <li className="f-nav-items"><a className="nav-link" href="https://policies.google.com/privacy?hl=en-US">Privacy policy</a></li>
                     </ul>

@@ -1,5 +1,8 @@
-import React, {useRef} from 'react';
+import {useRef} from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import {ToastContainer} from "react-toastify";
 
 
 function ContactForm() {
@@ -20,6 +23,9 @@ function ContactForm() {
                     console.log(result.text);
                     console.log("Message sent");
                     e.target.reset();
+                    toast.success('Message sent successfully!', {
+                        position: toast.POSITION.TOP_CENTER
+                    });
                 },
                 (error) => {
                     console.log(error.text)
@@ -28,7 +34,7 @@ function ContactForm() {
     }
     return (
         <>
-            <div className="form-container">
+            <div className="form__wrapper">
                 <div className="contacts-form">
                     <form className="contact-form" ref={form} onSubmit={sendEmail}>
                         <h3 className="form_hdl">CONTACT ME</h3>
@@ -60,8 +66,8 @@ function ContactForm() {
                     </form>
                     <div className="contacts">
                         <div className="socials1">
-                            <a href="#" className="socials1-icon"><i className="fa-brands fa-square-facebook"></i></a>
-                            <a href="#" className="socials1-icon"><i className="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/EmpathyHorsewomanMartaWieczorek/?ref=page_internal&locale=hi_IN" className="socials1-icon" target="_blank"><i className="fa-brands fa-square-facebook"></i></a>
+                            <a href="https://www.instagram.com/empathy.horsewoman/?fbclid=IwAR3mco0Co0ABGpOS5Bcg3Y9rrxj-Cnoaa3kBw5lG0ZFBpsFJJpnRquVJRW8" className="socials1-icon" target="_blank"><i className="fa-brands fa-instagram"></i></a>
                         </div>
                         <div className="socials2">
                             <a href="#" className="socials2-icon"><i className="fa-brands fa-youtube"></i></a>
@@ -75,6 +81,7 @@ function ContactForm() {
                     </div>
                 </div>
             </div>
+            <ToastContainer/>
         </>
     );
 }

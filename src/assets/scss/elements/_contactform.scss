@@ -1,4 +1,4 @@
-.form-container {
+.form__wrapper {
   width: 100%;
   height: 100vh;
   background: url("src/assets/images/35943626_10211887264923787_5706710131228540928_n.jpg") no-repeat center;
@@ -52,8 +52,11 @@ form input, form textarea {
   caret-color: #658F70;
 
 }
-form input, form textarea:focus {
-  border: 1px solid #658F70;
+form input:focus {
+  border: 3px solid #BFAE87;
+}
+form textarea:focus {
+  border: 3px solid #BFAE87;
 }
 
 .form-btn {
@@ -73,7 +76,7 @@ form input, form textarea:focus {
 
 }
 .form-btn:hover{
-  color: #BFAE87;
+  color: #FFDF98;
 }
 .contacts-form {
   display: flex;
