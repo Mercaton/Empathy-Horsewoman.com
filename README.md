@@ -1,4 +1,6 @@
-# Strona biznesowa - Empathy Horsewoman
+# Empathy Horsewoman.com
+
+## Strona biznesowa dla trenerki koni, służąca przestawieniu oferty oraz możliwości umawiania treningów online/osobistych
 
 - podział na podstrony (home, about me, book a lesson, contact)
 - kolory wiodące: fioletowy, zielony, żółty
