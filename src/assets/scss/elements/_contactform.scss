@@ -52,6 +52,9 @@ form input, form textarea {
   caret-color: #658F70;
 
 }
+form input, form textarea:focus {
+  border: 1px solid #658F70;
+}
 
 .form-btn {
   padding: 15px;
