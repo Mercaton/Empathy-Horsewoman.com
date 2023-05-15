@@ -2,7 +2,7 @@
 function Header() {
     return (
         <>
-            <div className="header__wrapper">
+            <header className="header__wrapper">
                 <input type="checkbox" id="check"></input>
                     <label htmlFor="check" className="checkbtn">
                         <i className="fas fa-bars"></i>
@@ -15,7 +15,7 @@ function Header() {
                         <li className="nav-item"><a className="list-item" href="/contact">Contact</a></li>
                     </ul>
 
-            </div>
+            </header>
         </>
     )
 }
