@@ -1,12 +1,12 @@
 const activePage = window.location.pathname;
-const navLinks = document.querySelectorAll('ul a');
+const navLinks = document.querySelectorAll('.list-item');
 navLinks.forEach(link => {
     if (link.href.includes(`${activePage}`)) {
         link.classList.add('active');
     }
 });
 
-// const menuLinks = document.querySelectorAll('.list-item');
+const menuLinks = document.querySelectorAll('.list-item');
 //
 // menuLinks.forEach(link => {
 //     link.addEventListener('click', (event) => {
