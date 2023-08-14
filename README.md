@@ -1,6 +1,6 @@
 # Empathy horsewoman.com - business website
 
-- stworzone za pomocą: HTML, Sass, Javascript, React, Vite, EmailJS, React-router
-- podział na podstrony (home, about me, book a lesson, contact)
-- kolory wiodące: fioletowy, zielony, żółty
-- w przyszłości: SHOP!! + tłumaczenie strony na języki: angielski (w przyszłości niemiecki, hiszpański, francuski) + zmiana waluty w shopie
+- stack used: HTML, Sass, Javascript, React, Vite, EmailJS, React-router, Toastify
+- create website routes (home, about me, book a lesson, contact)
+- main colors: violet, green, gold
+- future features: SHOP!! + translating to PL language (spanish, french next) + changing currency in shop
