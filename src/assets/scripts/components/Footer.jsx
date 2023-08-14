@@ -3,7 +3,7 @@
 function Footer() {
     return (
         <>
-            <div className="footer">
+            <footer className="footer">
                 <div className="footer-menu">
                     <ul className="footer-nav">
                         <li className="f-nav-items"><a className="nav-link" href="/">Start</a></li>
@@ -22,7 +22,7 @@ function Footer() {
                 </div>
                 <span className="copyright">Empathy Horsewoman copyright &copy; 2023 - All rights reserved || Designed by <a className="designer"
                     href="https://github.com/Mercaton" target="_blank">Mercaton</a></span>
-            </div>
+            </footer>
         </>
     );
 }

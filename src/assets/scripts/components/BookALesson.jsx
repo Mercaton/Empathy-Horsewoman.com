@@ -18,7 +18,7 @@ function BookALesson() {
 
     return (
         <>
-            <div className="bookalesson__wrapper">
+            <section className="bookalesson__wrapper">
             <div className="calendar-container">
                 <Calendar onClickDay={handleDateClick} value={selectedDate} />
             </div>
@@ -33,7 +33,7 @@ function BookALesson() {
                     </form>
                 </div>
             )}
-            </div>
+            </section>
         </>
     );
 }
