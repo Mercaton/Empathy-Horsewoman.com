@@ -103,6 +103,10 @@
       .btn-text {
         text-decoration: none;
       }
+      .btn-text:hover {
+        background-color: transparent;
+        color: whitesmoke;
+      }
     }
   }
 }
@@ -115,4 +119,12 @@
   text-decoration: none;
   color: #594C5D;
   list-style: none;
+
+
+}
+.lockie:hover {
+  background-color: transparent;
+  color: #A57DB4;
+
+
 }
