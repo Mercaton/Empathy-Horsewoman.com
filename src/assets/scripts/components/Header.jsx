@@ -7,18 +7,18 @@ navLinks.forEach(link => {
 });
 
 const menuLinks = document.querySelectorAll('.list-item');
-//
-// menuLinks.forEach(link => {
-//     link.addEventListener('click', (event) => {
-//         // Usuń podświetlenie ze wszystkich linków
-//         menuLinks.forEach(link => {
-//             link.classList.remove('active');
-//         });
-//
-//         // Dodaj podświetlenie do klikniętego linku
-//         event.target.classList.add('active');
-//     });
-// });
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', (event) => {
+        // Usuń podświetlenie ze wszystkich linków
+        menuLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+
+        // Dodaj podświetlenie do klikniętego linku
+        event.target.classList.add('active');
+    });
+});
 
 function Header() {
     return (
